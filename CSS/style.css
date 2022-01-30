@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+h1 {margin-bottom: 1rem;}
+
+header {height: 100vh;overflow: hidden;background-image: url(../Assets/Background-img.png);background-position: top;
+        background-repeat: no-repeat;background-size: 100%;}
+.navbar {height: 72px !important;}
+.navbar-nav {width: 669px !important;}
+
+.nav-link {font-size: 18px !important;color: #fff;padding-left: 1em !important;padding-right: 1em !important;transition: 0.3s ease-in;}
+.nav-link.active {color: #0FC4A5;}
+.nav-link:hover {color: #0FC4A5;}
+.Cta {color: #7b7aff;width: 147px;height: 39px;background: #fcfcfc;border-radius: 7px;text-align: center;margin-left:6px;}
+.Cta:hover{color: rgb(204, 202, 202);}
+.Banner-Heading {font-family: "Lora", serif;font-style: normal;font-weight: 600;font-size: 56px;;color: #fff;
+                text-align: left;
+}
+.Banner-text {color: #fff;}
+.mt-6 {margin-top: 3.8em !important;}
+.trial-cta { background-color: #0FC4A5;color: #fff; width: 147px;height: 51px;text-align: center; 
+            padding-top: 12px !important; margin-left: 0 !important;}
